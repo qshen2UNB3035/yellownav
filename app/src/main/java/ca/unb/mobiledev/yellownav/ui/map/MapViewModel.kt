@@ -1,13 +1,13 @@
-package ca.unb.mobiledev.yellownav.ui.dashboard
+package ca.unb.mobiledev.yellownav.ui.map
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class DashboardViewModel : ViewModel() {
+class MapViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "I'm here for pickup!"
+        value = "This is notifications Fragment"
     }
     val text: LiveData<String> = _text
 }

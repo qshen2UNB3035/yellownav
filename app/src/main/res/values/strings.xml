@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">YellowNav</string>
-    <string name="title_home">Feed</string>
-    <string name="title_dashboard">MyRide</string>
-    <string name="title_notifications">Map</string>
+    <string name="title_map">Map</string>
+    <string name="title_home">Home</string>
+    <string name="title_feed">Feed</string>
 </resources>
