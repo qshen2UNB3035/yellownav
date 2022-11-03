@@ -8,6 +8,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import ca.unb.mobiledev.yellownav.databinding.FragmentFeedBinding
+import ca.unb.mobiledev.yellownav.util.TwitterUtil
 
 class FeedFragment : Fragment() {
 
@@ -27,6 +28,8 @@ class FeedFragment : Fragment() {
 
         _binding = FragmentFeedBinding.inflate(inflater, container, false)
         val root: View = binding.root
+
+        TwitterUtil().getTweets()
 
         val textView: TextView = binding.textFeed
         feedViewModel.text.observe(viewLifecycleOwner) {
