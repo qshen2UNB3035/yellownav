@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/navigation_feed"
         android:name="ca.unb.mobiledev.yellownav.ui.feed.FeedFragment"
-        android:label="@string/title_home"
+        android:label="@string/title_feed"
         tools:layout="@layout/fragment_feed" />
 
     <fragment
